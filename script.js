@@ -8,7 +8,7 @@ function convertLink() {
     if (match && match[1]) {
         // 构建转换后的链接
         const fileId = match[1];
-        const convertedLink = `https://drive.google.com/uc?id=${fileId}`;
+        const convertedLink = `https://drive.usercontent.google.com/download?id=${fileId}`;
         
         // 显示转换后的链接
         const outputLink = document.getElementById("outputLink");
